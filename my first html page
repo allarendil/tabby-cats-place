@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabetha Long Portfolio</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="#welcome-section" id="nav-link">Welcome</a>
+      <a href="#projects" id="nav-link">Projects</a>
+      <a href="#contact" id="nav-link">Contact</a>
+    </div>
+    <section id="welcome-section"><h1 id="title">Hello there!  Welcome to my portfolio!</h1><h3 id="sub-title">Created by Tabetha Long 10.17.2022</h3></section>
+    <section id="projects">
+      <h1 id="project-title">View my projects:</h1>
+      <div class="project-tile">
+        <div class="tile-one"><img id="flower-pic" src="https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/22179673_1440092886027214_3916825774404001295_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=wfoRQANewXkAX-BfnOq&_nc_ht=scontent-iad3-2.xx&oh=00_AT8cnMTnQ4Uh3E1QnNI79vS0Jw-s5Agp7V3CvW6hQA5k8Q&oe=6373E21A"><a href="https://sites.google.com/view/tabetha-longs-portfolio/home" target="_blank" id="data-link">Data Analytics Portfolio</a></div>
+        <div class="tile-two"><img id="mermaid-pic" src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/280373229_5040575942645539_5006393838180738818_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a26aad&_nc_ohc=yYgBx4mkYsMAX9sGEtk&_nc_ht=scontent-iad3-2.xx&oh=00_AT8LrXmEwVM6o_xp0aTCzfZzPunpv0iWJVkBBJMWWVROOw&oe=6352E4A9"><a href="https://www.instagram.com/p/CdbFwiTu-iV/" target="_blank" id="ig-link">Instagram Paintings</a></div>
+        <div class="tile-three"><img id="code-pic" src="https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/18121759_1284673088235862_3670369301810279484_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OgsjLIPtPewAX9zFVik&_nc_ht=scontent-iad3-2.xx&oh=00_AT_m3kBfstFaWuj9ZvvYMAWGjrGkkvsGC9cZ3beZ2LIn2g&oe=637259F0"><a href="https://www.freecodecamp.org/Tabetha-Long" target="_blank" id="profile-link">FreeCodeCamp Portfolio</a></div>
+      </div>
+    </section>
+    <section id="contact">
+      <a href="mailto:tebicat516@gmail.com" id="contact-link">Send me an E-mail</a>
+    </section>
+  </body>
+</html>
+CSS
+#welcome-section {
+  background: linear-gradient(#563e4b, #8d6889, #c4a6ca);
+  height: 100vh;
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border: solid #c4a6ca;
+  position: relative;
+}
+html {
+  background-color: #563e4b;
+}
+
+#navbar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  font-family: Paprika;
+  text-align: center;
+  background-color: #c4a6ca;
+  overflow: hidden;
+  z-index: 3;
+  height: 30px;
+  width: 100vw;
+}
+
+#nav-link {
+  font-family: Paprika;
+  text-align: center;
+  color: #563e4b;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+#title {
+  font-family: Paprika;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #c4a6ca;
+  text-shadow: 3px 3px #563e4b;
+  overflow: hidden;
+}
+#sub-title {
+  font-family: Paprika;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: #c4a6ca;
+}
+
+#projects {
+  background: #563e4b;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+  position: absolute;
+}
+
+#project-title {
+   font-family: Paprika;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #c4a6ca;
+  text-shadow: 2px 2px #1b1017;
+  overflow: hidden;
+}
+
+.project-tile {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  margin: 3px;
+  top: 125px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.tile-one {
+display: flex;
+flex-wrap: wrap;
+  padding: 3px;
+  margin: 3px;
+  float: left;
+  position: relative;
+  border: solid #c4a6ca;
+  z-index: 2;
+}
+
+#data-link {
+position: absolute;
+display: float;
+bottom: 0%;
+right: 65%;
+color: #c4a6ca;
+float: left;
+font-family: Paprika;
+background: #563e4b;
+font-weight: bold;
+}
+
+.tile-two {
+  display: flex;
+flex-wrap: wrap;
+  padding: 3px;
+  margin: 3px;
+  position: relative;
+  border: solid #c4a6ca;
+  z-index: 2;
+}
+
+#ig-link {
+  position: absolute;
+display: float;
+bottom: 0%;
+right: 65%;
+color: #c4a6ca;
+float: left;
+background: #563e4b;
+font-weight: bold;
+}
+
+.tile-three {
+  display: flex;
+flex-wrap: wrap;
+  padding: 3px;
+  margin: 3px;
+  float: left;
+  position: relative;
+  border: solid #c4a6ca;
+  z-index: 2;
+}
+
+#profile-link {
+  position: absolute;
+display: float;
+bottom: 0%;
+right: 60%;
+color: #c4a6ca;
+float: left;
+background: #563e4b;
+font-weight: bold;
+}
+
+#flower-pic {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  align-self: center;
+  float: left;
+  
+}
+
+#mermaid-pic {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  float: left;
+}
+
+#code-pic {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  float: left;
+}
+
+#contact {
+  font-family: Paprika;
+  text-align: center;
+  background-color: #c4a6ca;
+  z-index: 2;
+  height: 30px;
+  position: sticky;
+  bottom: 0%;
+  left: 0%;
+  width: 100vw;
+}
+
+#contact-link {
+  font-family: Paprika;
+  text-align: center;
+  color: #563e4b;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+@media (max-width: 400px){
+  #title {
+    left: 0%;
+  }
+  #nav-link {
+    font-size: 10px;
+  }
+
+  #contact-link {
+    font-size: 10px;
+  }
+}
